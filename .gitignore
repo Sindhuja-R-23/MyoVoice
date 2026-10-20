@@ -1,0 +1,36 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Large EMG datasets
+emg_data/
+text_alignments/
+
+# Model checkpoints and generated weights
+*.pt
+*.pth
+*.ckpt
+*.pbmm
+*.scorer
+
+# Generated outputs
+evaluation_output/
+outputs/
+logs/
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
